@@ -1,1 +1,5 @@
 
+ from mtge.support import dated_scripts_container2
+import sandra
+db = sandra.connect('mortgage')
+dated_scripts_container2.setMarkChngPrecision_20171127(db=db, dryRun=False) 
